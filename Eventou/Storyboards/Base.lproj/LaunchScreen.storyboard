@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundSplash" translatesAutoresizingMaskIntoConstraints="NO" id="mgI-jh-NS6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veja, crie e divulgue eventos no campus e nunca mais perca nada ;)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Cz-pv-lZ9">
+                                <rect key="frame" x="48" y="352.5" width="279" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="logoBranco" translatesAutoresizingMaskIntoConstraints="NO" id="O93-6c-MPn">
+                                <rect key="frame" x="67.5" y="239" width="240" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="6a0-pl-r0h"/>
+                                    <constraint firstAttribute="height" constant="83" id="DC1-dm-ta1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.070588235294117646" green="0.80000000000000004" blue="0.82745098039215681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mgI-jh-NS6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Kya-zh-fy3"/>
+                            <constraint firstItem="O93-6c-MPn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="219" id="OKA-en-6vl"/>
+                            <constraint firstItem="mgI-jh-NS6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="PUJ-kr-oOa"/>
+                            <constraint firstItem="0Cz-pv-lZ9" firstAttribute="top" secondItem="O93-6c-MPn" secondAttribute="bottom" constant="30.5" id="Prs-3C-2tW"/>
+                            <constraint firstItem="0Cz-pv-lZ9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="VHc-vj-g8n"/>
+                            <constraint firstItem="mgI-jh-NS6" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Vee-3i-xDk"/>
+                            <constraint firstItem="O93-6c-MPn" firstAttribute="centerX" secondItem="mgI-jh-NS6" secondAttribute="centerX" id="Znx-Bq-6A4"/>
+                            <constraint firstItem="mgI-jh-NS6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cxW-Mv-lfG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Cz-pv-lZ9" secondAttribute="trailing" constant="48" id="rms-xq-TF1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Cz-pv-lZ9" secondAttribute="bottom" constant="276" id="ujn-GD-9VB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackgroundSplash" width="375" height="667"/>
+        <image name="logoBranco" width="819" height="284"/>
+    </resources>
+</document>

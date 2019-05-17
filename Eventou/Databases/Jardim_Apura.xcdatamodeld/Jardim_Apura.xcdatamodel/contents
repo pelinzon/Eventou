@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EventCore" representedClassName="EventCore" syncable="YES" codeGenerationType="class">
+        <attribute name="alreadyFinished" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="descriptionEvent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endingDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageCreator" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageEvent" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameCreator" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startingDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tags" optional="YES" attributeType="Transformable" customClassName="[String]" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserCore" representedClassName="UserCore" syncable="YES" codeGenerationType="class">
+        <attribute name="tags" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EventCore" positionX="-54" positionY="9" width="128" height="225"/>
+        <element name="UserCore" positionX="-63" positionY="-18" width="128" height="60"/>
+    </elements>
+</model>
